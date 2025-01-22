@@ -1,0 +1,10 @@
+{
+    "home": {
+        "title": "Next Fullstack Boilerplate",
+        "links": {
+            "signUp": "Sign Up",
+            "signIn": "Sign In",
+            "dashboard": "Dashboard"
+        }
+    }
+}
