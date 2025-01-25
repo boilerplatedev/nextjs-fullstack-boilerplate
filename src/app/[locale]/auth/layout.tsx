@@ -44,7 +44,7 @@ export default async function AuthLayout({
               {children}
             </CardContent>
           </Card>
-          <div className="text-balance text-center text-xs text-slate-500 [&_a]:underline [&_a]:underline-offset-4 hover:[&_a]:text-slate-900">
+          <div className="text-balance text-center text-xs text-slate-500 [&_a]:underline [&_a]:underline-offset-4 [&_a]:hover:text-slate-900">
             {t.rich('terms', {
               terms: (chunks) => <Link href={Route.TermsOfService}>{chunks}</Link>,
               privacy: (chunks) => <Link href={Route.PrivacyPolicy}>{chunks}</Link>,
